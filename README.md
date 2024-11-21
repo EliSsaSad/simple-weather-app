@@ -38,4 +38,4 @@
 4. Для запуска приложения используйте следующую команду:
 
    ```bash
-   python -B -m weather_app.main
+   python -b -m weather_app.main

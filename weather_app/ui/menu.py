@@ -40,7 +40,7 @@ class Menu(QtWidgets.QWidget):
             50,
             "rgba(0, 255, 51, 100)"
         )
-        self.menu_bar.addWidget(self.push_button_home, 1, 2, 1, 1)
+        self.menu_bar.addWidget(self.push_button_home, 1, 1, 1, 1)
 
         # Кнопка "Настройки"
         self.push_button_settings = self.create_button(
@@ -50,17 +50,8 @@ class Menu(QtWidgets.QWidget):
             50,
             "rgba(0, 255, 51, 100)"
         )
-        self.menu_bar.addWidget(self.push_button_settings, 1, 3, 1, 1, QtCore.Qt.AlignLeft)
+        self.menu_bar.addWidget(self.push_button_settings, 1, 2, 1, 1, QtCore.Qt.AlignLeft)
 
-        # Кнопка "Старт / Стоп"
-        self.check_box_start = self.create_button(
-            "weather_app/ui/icons/ui/Play.png",
-            "Старт",
-            50,
-            50,
-            "rgba(0, 255, 51, 100)"
-        )
-        self.menu_bar.addWidget(self.check_box_start, 1, 1, 1, 1)
 
         # Кнопка "Закрыть"
         self.exit_button = self.create_icon_button(

@@ -104,7 +104,6 @@ class MainWindow(QMainWindow):
         )
 
         # Кнопки управления
-        self.button_group.addButton(self.menubar.check_box_start)
         self.button_group.addButton(
             self.menubar.push_button_home,
             stacked_widget.addWidget(page_home),
