@@ -1,5 +1,3 @@
 [flake8]
-max-line-length = 88             # Максимальная длина строки (по умолчанию 79 символов)
-exclude = venv, __pycache__      # Исключения (виртуальное окружение, кеши)
-ignore = E203, E266, W503        # Игнорируемые ошибки
-max-complexity = 10              # Максимальная сложность кода (цикломатическая сложность)
+max-line-length = 79
+exclude = .git, __pycache__, migrations, .venv
